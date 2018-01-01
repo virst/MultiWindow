@@ -52,9 +52,11 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(138, 277);
             this.listBox1.TabIndex = 1;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // ucMyRadios1
             // 
+            this.ucMyRadios1.CheckedIndex = 0;
             this.ucMyRadios1.Location = new System.Drawing.Point(244, 52);
             this.ucMyRadios1.Name = "ucMyRadios1";
             this.ucMyRadios1.Size = new System.Drawing.Size(150, 150);
@@ -64,6 +66,7 @@
         "sdfd",
         "dsf"};
             this.ucMyRadios1.TabIndex = 2;
+            this.ucMyRadios1.CheckedIndesChanged += new System.EventHandler(this.ucMyRadios1_CheckedIndesChanged);
             // 
             // MainForm
             // 

@@ -16,7 +16,7 @@ namespace MultiWindow
         [return: MarshalAs(UnmanagedType.Bool)]
         static extern bool EnumWindows(EnumWindowsProc lpEnumFunc, IntPtr lParam);
 
-        string[] DescNames;
+        public string[] DescNames { private set; get; }
         int CurDesc = 0;
         public WindowsList windows = new WindowsList();
 

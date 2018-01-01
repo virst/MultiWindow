@@ -15,8 +15,10 @@ namespace MultiWindow.uc
         public ucMyRadio()
         {
             InitializeComponent();
+
+            
         }
 
-        public override string Text { get => textBox1.Text; set => textBox1.Text = value; }
+               public override string Text { get => textBox1.Text; set => textBox1.Text = value; }
     }
 }

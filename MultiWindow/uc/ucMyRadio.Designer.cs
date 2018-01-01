@@ -51,13 +51,13 @@
             this.textBox1.Size = new System.Drawing.Size(136, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // usMyRadio
+            // ucMyRadio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.radioButton1);
-            this.Name = "usMyRadio";
+            this.Name = "ucMyRadio";
             this.Size = new System.Drawing.Size(150, 22);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -66,7 +66,7 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox textBox1;
+        internal System.Windows.Forms.RadioButton radioButton1;
+        internal System.Windows.Forms.TextBox textBox1;
     }
 }
